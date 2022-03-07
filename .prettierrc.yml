@@ -1,0 +1,14 @@
+semi: true
+trailingComma: none
+
+# Single quotes are defaulted everywhere
+# Double quotes are free to have different meaning
+jsxSingleQuote: true
+singleQuote: true
+
+# Only quotes of a sibling prop has to be quoted
+quoteProps: consistent
+
+# Tabs are used due to the increased readability of deeply nested code
+#useTabs: true
+tabWidth: 4
