@@ -108,7 +108,6 @@ const removeMemberMockRequest = (id: string) => {
 const removeMemberRequestWorker = function* ({
     payload: { id, onComplete }
 }: ReturnType<typeof removeMemberRequest>) {
-    console.log('id', id);
     const filteredId: string = yield call(removeMemberMockRequest, id);
 
     yield put(removeMemberSuccess(filteredId));

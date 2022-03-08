@@ -30,6 +30,7 @@ const Value = styled.div`
 const Input = styled.input`
     min-width: 120rem;
     padding: 2rem 4rem;
+    border-radius: 2rem;
     
     ${({ theme }: { theme: Theme }) => theme.typography.body};
 `;
